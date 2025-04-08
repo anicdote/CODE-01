@@ -74,6 +74,24 @@ Usage: r.recognize_google()
 
 Purpose: Gets user’s live location using IP-based geolocation.
 
+📱 Fake Call AI – Safety Support Tool
+This Python app simulates fake calls and provides voice-based AI chat for personal safety situations. It has two modes:
+
+🔘 Low Suspicion (Fake Call)
+Plays a looping ringtone.
+
+Lets the user “answer” or “decline” the fake call.
+
+Upon answering, it speaks a believable message (predefined or custom) using text-to-speech.
+
+🔘 Mid Suspicion (AI Voice Chat)
+Starts a voice-based conversation using speech recognition and text-to-speech.
+
+Responds with calming or helpful messages based on what the user says.
+
+🖥️ GUI Interface
+A simple Tkinter GUI allows users to select between the two modes with one click
+
 Usage: geocoder.ip('me')
 
 📊 Text Summarization (Custom using Counter)
